@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical" >
+        
+        <src.pcmonitor.client.PlotView 
+            android:id="@+id/memoryUsage_ramUsagePlot"
+            style="@style/plotView" />
+        <src.pcmonitor.client.PlotView 
+            android:id="@+id/memoryUsage_swapUsagePlot"
+            style="@style/plotView" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/memoryUsage_ramGroupTitle"
+            style="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_physicalRamText"
+            android:text="@string/memoryUsage_physicalRam" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_totalText"
+            android:text="@string/memoryUsage_total" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_usedText"
+            android:text="@string/memoryUsage_used" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_freeText"
+            android:text="@string/memoryUsage_free" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/memoryUsage_swapGroupTitle"
+            style="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_swapUsedText"
+            android:text="@string/memoryUsage_used" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/memoryUsage_swapFreeText"
+            android:text="@string/memoryUsage_free" />
+        
+    </LinearLayout>
+    
+</ScrollView>

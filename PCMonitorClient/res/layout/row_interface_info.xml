@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <ImageView
+        android:id="@+id/networkInterfaces_rowIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/iface" />
+
+    <TextView
+        android:id="@+id/networkInterfaces_addressText"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/networkInterfaces_descriptionText"
+        android:layout_toRightOf="@+id/networkInterfaces_rowIcon"
+        android:text="192.168.0.1" />
+    
+    <TextView
+        android:id="@+id/networkInterfaces_netmaskText"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/networkInterfaces_addressText"
+        android:layout_toRightOf="@+id/networkInterfaces_rowIcon"
+        android:text="255.255.255.255" />
+
+    <TextView
+        android:id="@+id/networkInterfaces_descriptionText"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/networkInterfaces_rowIcon"
+        android:text="Stub Name" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monitor="http://schemas.android.com/apk/res-auto" >
+    <item 
+        android:id="@+id/networkInterfaceList_refreshItem"
+        android:title="@string/networkInterfaceList_refreshItemText"
+        android:icon="@drawable/ic_action_refresh"
+        monitor:showAsAction="always" />
+</menu>

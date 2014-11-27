@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="src.pcmonitor.client.CpuUsageActivity" >
+
+    <item
+        android:id="@+id/serverList_showCpuLoadItem"
+        android:orderInCategory="0"
+        android:title="@string/cpuLoad_title" />
+    
+    <item
+        android:id="@+id/serverList_showProcessListItem"
+        android:orderInCategory="1"
+        android:title="@string/processList_title" />
+    
+    <item
+        android:id="@+id/serverList_showNetworkInterfacesItem"
+        android:orderInCategory="2"
+        android:title="@string/networkInterfaceList_title" />
+    
+    <item
+        android:id="@+id/serverList_showMemoryUsage"
+        android:orderInCategory="3"
+        android:title="@string/memoryUsage_title" />
+
+</menu>

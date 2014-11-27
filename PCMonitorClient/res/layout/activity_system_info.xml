@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="src.pcmonitor.client.SystemInfoActivity"
+    style="@style/topLevelLayout" >
+
+    <FrameLayout
+        android:id="@+id/systemInfo_fragmentHolder"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <!--  <fragment
+        android:name="src.pcmonitor.client.SystemInfoFragment"
+        android:id="@+id/systemInfo_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> -->
+
+</FrameLayout>

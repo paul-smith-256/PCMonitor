@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/serverList_serverListView"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/serverList_searchButton"
+        android:layout_centerHorizontal="true" />
+    
+    <TextView 
+        android:id="@+id/serverList_noServersView"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/serverList_noServersText" />
+
+    <Button
+        android:id="@+id/serverList_searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/serverList_searchButtonText" />
+
+    <ProgressBar
+        android:id="@+id/serverList_searchProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+    
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/processList_menu"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/processList_sortingSubmenu"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/processList_sort"
+                android:checkableBehavior="single"
+                android:orderInCategory="0" >
+                <item
+                    android:id="@+id/processList_sortByExecutableItem"
+                    android:orderInCategory="0"
+                    android:title="@string/processList_sortByExecutable"
+                    android:titleCondensed="@string/processList_sortByExecutableCond">
+                </item>
+                <item
+                    android:id="@+id/processList_sortByOwnerItem"
+                    android:orderInCategory="1"
+                    android:title="@string/processList_sortByOwner"
+                    android:titleCondensed="@string/processList_sortByOwnerCond">
+                </item>
+                <item
+                    android:id="@+id/processList_sortByCpuItem"
+                    android:orderInCategory="2"
+                    android:title="@string/processList_sortByCpu"
+                    android:titleCondensed="@string/processList_sortByCpuCond">
+                </item>
+                <item
+                    android:id="@+id/processList_sortByMemoryItem"
+                    android:orderInCategory="3"
+                    android:title="@string/processList_sortByMemory"
+                    android:titleCondensed="@string/processList_sortByMemory">
+                </item>
+            </group>
+
+            <item
+                android:id="@+id/processList_sortDescendingItem"
+                android:checkable="true"
+                android:orderInCategory="4"
+                android:title="@string/processList_sortDescending"
+                android:titleCondensed="@string/processList_sortDescending">
+            </item>
+        </menu>
+    </item>
+
+</menu>

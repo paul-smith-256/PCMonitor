@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="appName">PC Monitor</string>
+    
+    <string name="serverList_searchButtonText">Search</string>
+    <string name="serverList_searchErrorMessage">Search operation failed!</string>
+    <string name="serverList_noServersText">No data</string>
+        
+	<string name="systemInfo_title">System info</string>
+	<string name="systemInfo_noServerMessage">No server</string>
+	
+	<string name="cpuLoad_title">CPU Load</string>
+	<string name="cpuLoad_wrongCpuCount">Wrong CPU count</string>
+	<string name="cpuLoad_plotTitle">CPU %d</string>
+	
+	<string name="memoryUsage_title">Memory usage</string>
+	<string name="memoryUsage_ramPlotTitle">RAM</string>
+	<string name="memoryUsage_swapPlotTitle">Swap</string>
+	<string name="memoryUsage_ramGroupTitle">RAM</string>
+	<string name="memoryUsage_swapGroupTitle">Swap</string>
+	<string name="memoryUsage_physicalRam">Phisical RAM: %d MB</string>
+	<string name="memoryUsage_total">Total: %d MB</string>
+	<string name="memoryUsage_used">Used: %d MB</string>
+	<string name="memoryUsage_free">Free: %d MB</string>
+	
+	<string name="networkInterfaceList_title">Network interfaces</string>
+	<string name="networkInterfaceList_noInterfaces">No data</string>
+	<string name="networkInterfaceList_updateButtonText">Update</string>
+	<string name="networkInterfaceList_updateFailed">Update failed</string>
+	<string name="networkInterfaceList_addressFormat">IP address: %s</string>
+	<string name="networkIntrefaceList_netmaskFromat">Subnet mask: %s</string>
+	<string name="networkInterfaceList_defaultInterfaceName">Interface</string>
+	<string name="networkInterfaceList_refreshItemText">Refresh</string>
+	
+	<string name="networkInterfaceDetails_hwAddressFormat">HW Address: %s</string>
+	<string name="networkInterfaceDetails_typeFormat">Type: %s</string>
+	<string name="networkInterfaceDetails_mtuFormat">MTU: %d</string>
+	<string name="networkInterfaceDetails_metricFormat">Metric: %d</string>
+	
+	<string name="processList_title">Processes</string>
+	<string name="processList_processDetailsFormat">Owner: %1$s, Memory: %2$d KB, CPU: %3$d %%</string>
+	<string name="processList_noData">No data</string>
+	<string name="processList_sortingSubmenu">Sorting</string>
+	<string name="processList_sortByExecutable">Sort by executable</string>
+	<string name="processList_sortByOwner">Sort by owner</string>
+	<string name="processList_sortByMemory">Sort by memory usage</string>
+	<string name="processList_sortByCpu">Sort by CPU load</string>
+	<string name="processList_sortByExecutableCond">Executable</string>
+	<string name="processList_sortByOwnerCond">Owner</string>
+	<string name="processList_sortByMemoryCond">Memory</string>
+	<string name="processList_sortByCpuCond">CPU</string>
+	<string name="processList_sortDescending">Descending</string>
+	
+	<string name="noResponseMessage">No response</string>
+	<string name="failedToSendMessage">Cannot send message</string>
+	<string name="tryAgainText">Try again</string>
+	
+
+</resources>

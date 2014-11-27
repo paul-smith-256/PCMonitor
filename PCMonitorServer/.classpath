@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="resources/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/PCMonitorCommon"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-configuration-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/sigar/sigar.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="PCMonitorServer/libs/sigar"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
